@@ -8,6 +8,7 @@ This program analyses a packet stream and reports the conversations found in the
 
 All the fields must be separated by a single space. The keyboard was used as stdin when writing this code. The program will display the results on stdout if no errors were found in the packets. A conversation consists of four packets which were entered sequentially. An error message is displayed on stderr if one of the packets do not conform to the specification.
 
+I'm not sure what the complex use case is that would break the program. I couldn't get it to crash with the inputs I used. I think it may have something to do with the packet type but the code checks the packet type to ensure it is entered in order.
 
 
 
